@@ -64,7 +64,7 @@ ident_file = '${buildout:directory}/etc/pg_ident.conf'
 
 # - Connection Settings -
 
-listen_addresses = '${settings:postgres_host}'        # what IP address(es) to listen on;
+listen_addresses = '*'        # what IP address(es) to listen on;
                     # comma-separated list of addresses;
                     # defaults to 'localhost', '*' = all
                     # (change requires restart)
