@@ -1,5 +1,6 @@
 odoo_repos/
 odoo-repos/
+eggs-custom/
 var/
 parts/
 lib/
